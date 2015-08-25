@@ -98,7 +98,7 @@ public class CalcUI extends Application {
 				changeDisplay(true, Math.sqrt(num()));
 			}
 		});
-		sqrt.setText("√");
+		sqrt.setText("\u221a");
 		grid.add(sqrt, 4, 3);
 		Button sqr = new Button();
 		sqr.setOnAction(new EventHandler<ActionEvent>() {
